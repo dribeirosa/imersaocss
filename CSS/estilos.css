@@ -1,0 +1,37 @@
+/* Aula inicial :D */
+body {
+    background-image: url(https://images.pexels.com/photos/34140/pexels-photo.jpg);
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+  }
+  .menu {
+    background-color: #ffffff;
+    padding:5px; 
+  }
+  .menu li {
+    list-style: none;
+  }
+  
+  .menu ul{
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  a{
+    color:teal;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    color:red;
+  }
+  
+  .site-title,
+  .site-subtitle{
+    text-align:center;
+    color: #ffffff
+  }
+  .site-subtitle {
+  }
